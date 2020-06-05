@@ -6,6 +6,11 @@ import (
 )
 
 func main() {
+
+	a :="10"
+	fmt.Println(a)
+
+
 	for i := 0; i < 10; i++ {
 		a := rand.Int()
 		fmt.Printf("%d / ", a)
