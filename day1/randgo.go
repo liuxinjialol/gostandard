@@ -5,10 +5,14 @@ import (
 	"time"
 )
 
+var b="100"
+
+
 func main() {
 
 	a :="10"
 	fmt.Println(a)
+	fmt.Println(b)
 
 
 	for i := 0; i < 10; i++ {
